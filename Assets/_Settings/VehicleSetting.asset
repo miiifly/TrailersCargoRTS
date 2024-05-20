@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2288e3d5273823f40a7828892b130d2a, type: 3}
+  m_Name: VehicleSetting
+  m_EditorClassIdentifier: 
+  _brakeTorque: 0.1
+  _maxAcceleration: 50
+  _maxSpeedMPS: 10
+  _crawlMaxSpeedMPS: 1.38888
+  _speedLimiterPower: 5
+  _crawlerModeMultiplier: 0.1
+  _additionalGravityForWheels: 0.1
+  _additionalTorqueMultiplierWhenSteering: 1
+  _handBrakingMultiplier: 10
+  _angleThresholdForStanding: 5
+  _normalAcceleration:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.00416616
+      value: -0.0023492724
+      inSlope: 2.1185277
+      outSlope: 2.1185277
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.15151913
+    - serializedVersion: 3
+      time: 0.9666443
+      value: 0.3254776
+      inSlope: 0.11876352
+      outSlope: 0.11876352
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.61903846
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _crawlAcceleration:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _motorInputCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.49764252
+      inSlope: 0.0036865238
+      outSlope: 0.0036865238
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.55
+    - serializedVersion: 3
+      time: 9.791611
+      value: 0.9981499
+      inSlope: 0.14711532
+      outSlope: 0.14711532
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.115986
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _standingSecurityForceMultiplier: 1
+  _wheelBase: 1.905
+  _rearTrack: 0.932
+  _turnRadius: 2.42
+  _SurfaceLayer:
+    serializedVersion: 2
+    m_Bits: 1
